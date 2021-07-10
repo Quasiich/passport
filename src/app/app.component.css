@@ -1,0 +1,173 @@
+
+@font-face {
+  font-family: "asemkandis";
+  src: url("../assets/fonts/asemkandis.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "infinity";
+  src: url("../assets/fonts/Infinity.ttf")  format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.passport {
+  width: 50vh;
+  height: 28vh;
+  background-image: url("../assets/skyline.jpg");
+  background-size: contain;
+  border-radius: 1.5vh;
+  color: rgba(255,255,255, 0.7);
+}
+
+.black-box {
+  background-color: rgba(0,0,0, 0.7);
+  border-radius: 1.5vh;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  min-height: 0.01vh;
+}
+
+.passport-content {
+  width: 100%;
+  height: 28vh
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+}
+
+.passport .header-headline {
+  padding-top: 1vh;
+}
+
+.passport .header-spacer {
+  width: 18vh!important;
+}
+
+.passport .header-government {
+  font-size: 1.25vh;
+  font-family: "Helvetica Neue", serif;
+}
+
+.passport .header-idcard {
+  font-size: 2.5vh;
+  font-family: "Helvetica Neue", serif;
+}
+
+.bandage {
+  height: 5vh;
+  margin-top: 0.75vh;
+  background: rgba(55, 55, 53, 0.5);
+  width: 100%;
+  overflow: visible;
+}
+
+.bandage-badge{
+  background-size: cover!important;
+  width: 12vh;
+  height: 12vh;
+  background: url("../assets/siegel-deckkraft.png");
+  margin-top: -3.5vh;
+  margin-left: 2vh;
+}
+
+.container-badge {
+  width: 18vh!important;
+}
+
+.container-name {
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.passport .bandage .name{
+  font-size: 2.5vh;
+  font-family: "infinity", serif;
+  letter-spacing: 1vh;
+}
+
+.information {
+  height: 17.5vh;
+
+}
+
+.information .info-box {
+  margin-top: 1.5vh;
+  margin-right: 4vh;
+}
+
+.information .uppercase {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", serif;
+  font-size: 1.5vh;
+}
+
+.information .info-arguments {
+  margin-top: 0.25vh;
+  font-family: "infinity", serif;
+  font-size: 1.5vh;
+  letter-spacing: 0.2vh;
+}
+
+.signature-box {
+  margin-top: 1vh;
+  font-family: "asemkandis", serif;
+  font-size: 4vh;
+}
+
+.signature {
+  margin-left: 5vh;
+}
+
+.passport-number {
+  position: absolute;
+  top: 26vh;
+  left: 3.5vh;
+  letter-spacing: 0.4vh;
+  font-family: "infinity", serif;
+  font-size: 1vh;
+}
+
+.id-number {
+  position: absolute;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  left: 1.85vh;
+  top: 19.6vh;
+  font-family: "infinity", serif;
+  font-size: 1vh;
+}
+
+.gender-number {
+  position: absolute;
+  top: 25.4vh;
+  left: 2vh;
+  font-family: "infinity", serif;
+  font-size: 2vh;
+}
+
+.seal {
+  position: absolute;
+  background: url("../assets/San_Andreas_State_Sealdark.png");
+  opacity: 0.3;
+  transform: rotate(-25deg);
+  width: 4vh;
+  height: 4vh;
+  background-size: cover;
+  top: 23.5vh;
+  left: 45vh;
+}
